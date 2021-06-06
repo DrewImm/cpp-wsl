@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake (Debug)",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/build/debug"
+            },
+            "command": "cmake --build .",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
