@@ -1,2 +1,7 @@
+# Build
 build/
 dependencies/
+
+# IDE's
+.vs/
+out/
