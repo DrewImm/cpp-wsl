@@ -8,7 +8,7 @@ include(dependencies/conanbuildinfo.cmake)
 conan_basic_setup()
 
 include_directories(src)
-file(GLOB SRC_FILES src/*.cpp)
+file(GLOB SRC_FILES src/*.cpp src/**/*.cpp)
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 
